@@ -44,8 +44,7 @@ function lightBoxClose(event) {
 }
 
 function slider(event) {
-	let index = 0;
-	index = +event.target.firstElementChild.dataset.index;
+	let index = +event.target.firstElementChild.dataset.index;
 	if (event.code === 'ArrowLeft' && index > 0) {
 		index --;
 	}
